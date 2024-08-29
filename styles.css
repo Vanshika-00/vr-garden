@@ -1,0 +1,91 @@
+
+/*mayonk css*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #389934;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccffcc;
+    padding: 10px 20px;
+}
+
+.navbar-brand .brand-logo {
+    color: #389934;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu li a {
+    color: #389934;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* my css */
+
+/*fun-fact*/
+.word-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #3aaf7b;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+.word {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3aaf7b; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/*button*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.styled-button {
+    background-color:#42A5F5; 
+    border: none; 
+    color: white; 
+    padding: 40px 60px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 30px; 
+    margin: 10px; 
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.styled-button:hover {
+    background-color: #1E88E5; 
+    transform: scale(1.1);
+}
