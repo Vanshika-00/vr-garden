@@ -184,3 +184,100 @@ body {
         transform: translateY(-5px);
     }
 }
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu li {
+        margin: 10px 0;
+    }
+
+    .navbar-menu li a {
+        font-size: 0.9em;
+    }
+
+    .word-container {
+        padding: 30px 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .word {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .button-container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .styled-button {
+        padding: 20px 30px;
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .fact-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-section {
+        padding: 10px;
+    }
+
+    .headline {
+        font-size: 1.8rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .scroll-text {
+        font-size: 1.3rem;
+    }
+
+    .arrow {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .styled-button {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+
+    .word {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .scroll-text {
+        font-size: 1.2rem;
+    }
+
+    .arrow {
+        font-size: 1.5rem;
+    }
+}
